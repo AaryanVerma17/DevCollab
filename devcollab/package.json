@@ -1,0 +1,15 @@
+{
+  "name": "devcollab",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "eslint . --ext .ts,.tsx",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^2.0.0",
+    "turbo": "^1.0.0"
+  }
+}
